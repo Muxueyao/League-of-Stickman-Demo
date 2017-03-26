@@ -1,0 +1,30 @@
+<Class name="player">
+  <init class="set">
+    <Player pos.x="100" pos.y="365">
+      <move_speed>6</move_speed>
+      <Money>999999</Money>
+      <zuansi>999999</zuansi>
+      <HP>999999</HP>
+      <A1>500</A1>
+      <A2>600</A2>
+      <A3>700</A3>
+      <A4>800</A4>
+      <A5>1000</A5>
+      <Q>2000</Q>
+      <W>600</W>
+      <E>600</E>
+      <R>800</R>
+      <camera_x>0</camera_x>
+      <hp_show>1</hp_show>
+      <dir>1</dir>
+      <is_death>0</is_death>
+      <Q_CD>2</Q_CD>
+      <W_CD>3</W_CD>
+      <E_CD>4</E_CD>
+      <R_CD>10</R_CD>
+      <A_CD>1</A_CD>
+      <player_sprite>other/player/player.sprite</player_sprite>
+      <player_png>other/player/player.png</player_png>
+    </Player>
+  </init>
+</Class>

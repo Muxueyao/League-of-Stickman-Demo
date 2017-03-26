@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="设备接口">
+      <UniqueIdentifier>{e53492e9-d3b2-4ff6-bffc-1e282cb71e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎架构">
+      <UniqueIdentifier>{04328e9b-1890-4ccb-a824-cf6da19813f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎架构\对象基类">
+      <UniqueIdentifier>{0020823c-11bc-41c8-a04c-341d19caac1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎架构\UI">
+      <UniqueIdentifier>{81a8e987-b715-43aa-a031-4524344a7554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类">
+      <UniqueIdentifier>{30c64d8f-0c3a-4e58-83e3-31d7b8ee0387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎架构\音频">
+      <UniqueIdentifier>{50e8ad7c-181d-4fc6-862f-38cdb0644dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎架构\图像渐变">
+      <UniqueIdentifier>{22b120a2-fbff-40a9-bb91-0a84b0ba79ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\npc">
+      <UniqueIdentifier>{61bd8718-1891-4d70-8d43-254b5acc8810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\主角">
+      <UniqueIdentifier>{acf74b04-1ece-4d55-9583-5639a3103b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\游戏逻辑">
+      <UniqueIdentifier>{fa8f7c37-d36d-4dc5-a6c9-8d985cf6f0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\地图">
+      <UniqueIdentifier>{39a81d93-cd24-4d74-a765-cb6ad9abd082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\音频管理">
+      <UniqueIdentifier>{ffee2900-111b-47a1-9426-8b9e2f607198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎架构\XML">
+      <UniqueIdentifier>{4a6a00ab-ef15-46be-8229-ee034068afb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\场景">
+      <UniqueIdentifier>{03048de8-a5e1-41db-91aa-31c325c5510b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\场景\登陆">
+      <UniqueIdentifier>{16656fd4-ad80-4214-bbfe-2f3603f20119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\场景\加载">
+      <UniqueIdentifier>{e3acf0b3-e62b-4f05-9932-82466a9e7fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\场景\游戏场景">
+      <UniqueIdentifier>{bb440fdc-5c0b-4227-8b25-8887cdbbe3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\场景\主场景">
+      <UniqueIdentifier>{93c8bc02-57c3-4fb1-8035-8cdcd6d11d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\场景\新手关卡">
+      <UniqueIdentifier>{642f19e4-e3aa-46af-ac41-08a01979a796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\效果">
+      <UniqueIdentifier>{93a02d7b-437b-42a4-a827-5786c0e7bd6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\效果\金币掉落">
+      <UniqueIdentifier>{60d0a8a1-06cb-4322-9185-f6e2cb51f134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\效果\死亡效果">
+      <UniqueIdentifier>{d2bdb110-cb99-4ff1-b99d-51629be40498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\效果\受伤数值">
+      <UniqueIdentifier>{9dadb7d5-b25e-49f4-a8a5-5d059e595212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户类\效果\血条显示">
+      <UniqueIdentifier>{195a04a8-b0ec-4925-a4ce-e066c0815a73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="火柴人联盟.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatForm.h">
+      <Filter>设备接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>引擎架构\对象基类</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_img.h">
+      <Filter>引擎架构\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj_management.h">
+      <Filter>引擎架构\对象基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Animate.h">
+      <Filter>引擎架构\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_button.h">
+      <Filter>引擎架构\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>用户类\场景\登陆</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>用户类\场景\加载</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_scene.h">
+      <Filter>用户类\场景\主场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_start.h">
+      <Filter>用户类\场景\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio4Bass.h">
+      <Filter>引擎架构\音频</Filter>
+    </ClInclude>
+    <ClInclude Include="bass.h">
+      <Filter>引擎架构\音频</Filter>
+    </ClInclude>
+    <ClInclude Include="DX_CircleAnim.h">
+      <Filter>引擎架构\图像渐变</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>用户类\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc_Management.h">
+      <Filter>用户类\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>用户类\主角</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>用户类\游戏逻辑</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmap.h">
+      <Filter>用户类\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc3.h">
+      <Filter>用户类\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="Money_drop.h">
+      <Filter>用户类\效果\金币掉落</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc2.h">
+      <Filter>用户类\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="Die_Effect.h">
+      <Filter>用户类\效果\死亡效果</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc1.h">
+      <Filter>用户类\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>用户类\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="Hurted_num.h">
+      <Filter>用户类\效果\受伤数值</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio_management.h">
+      <Filter>用户类\音频管理</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>引擎架构\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>引擎架构\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="New_hand_state.h">
+      <Filter>用户类\场景\新手关卡</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_button_2.h">
+      <Filter>引擎架构\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HP_rect.h">
+      <Filter>用户类\效果\血条显示</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_number.h">
+      <Filter>引擎架构\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture.h">
+      <Filter>引擎架构\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteX.h">
+      <Filter>引擎架构\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="火柴人联盟.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatForm.cpp">
+      <Filter>设备接口</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>引擎架构\对象基类</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_img.cpp">
+      <Filter>引擎架构\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj_management.cpp">
+      <Filter>引擎架构\对象基类</Filter>
+    </ClCompile>
+    <ClCompile Include="Animate.cpp">
+      <Filter>引擎架构\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_button.cpp">
+      <Filter>引擎架构\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>用户类\场景\登陆</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>用户类\场景\加载</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_scene.cpp">
+      <Filter>用户类\场景\主场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_start.cpp">
+      <Filter>用户类\场景\游戏场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio4Bass.cpp">
+      <Filter>引擎架构\音频</Filter>
+    </ClCompile>
+    <ClCompile Include="DX_CircleAnim.cpp">
+      <Filter>引擎架构\图像渐变</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>用户类\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc_Management.cpp">
+      <Filter>用户类\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>用户类\主角</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>用户类\游戏逻辑</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmap.cpp">
+      <Filter>用户类\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc3.cpp">
+      <Filter>用户类\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="Money_drop.cpp">
+      <Filter>用户类\效果\金币掉落</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc2.cpp">
+      <Filter>用户类\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="Die_Effect.cpp">
+      <Filter>用户类\效果\死亡效果</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc1.cpp">
+      <Filter>用户类\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>用户类\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="Hurted_num.cpp">
+      <Filter>用户类\效果\受伤数值</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio_management.cpp">
+      <Filter>用户类\音频管理</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>引擎架构\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>引擎架构\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>引擎架构\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>引擎架构\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="New_hand_state.cpp">
+      <Filter>用户类\场景\新手关卡</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_button_2.cpp">
+      <Filter>引擎架构\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HP_rect.cpp">
+      <Filter>用户类\效果\血条显示</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_number.cpp">
+      <Filter>引擎架构\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture.cpp">
+      <Filter>引擎架构\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteX.cpp">
+      <Filter>引擎架构\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="火柴人联盟.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="火柴人联盟.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

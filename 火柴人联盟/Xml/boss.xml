@@ -1,0 +1,28 @@
+<Class name="BOSS">
+  <init class="set">
+    <BOSS pos.x="100" pos.y="365">
+      <move_speed>8</move_speed>
+      <HP>100000</HP>
+      <a1_hurted>500</a1_hurted>
+      <a2_hurted>500</a2_hurted>
+      <a3_hurted>500</a3_hurted>
+      <a4_hurted>500</a4_hurted>
+      <a5_hurted>500</a5_hurted>
+      <q1_hurted>1000</q1_hurted>
+      <q2_hurted>3000</q2_hurted>
+      <w1_hurted>1000</w1_hurted>
+      <w2_hurted>1000</w2_hurted>
+      <w3_hurted>1000</w3_hurted>
+      <w4_hurted>1000</w4_hurted>
+      <w5_hurted>1000</w5_hurted>
+      <w6_hurted>1000</w6_hurted>
+      <e_hurted>2000</e_hurted>
+      <r1_hurted>1000</r1_hurted>
+      <r2_hurted>1000</r2_hurted>
+      <r3_hurted>1000</r3_hurted>
+      <r4_hurted>1000</r4_hurted>
+      <r5_hurted>1000</r5_hurted>
+      <r6_hurted>5000</r6_hurted>
+    </BOSS>
+  </init>
+</Class>

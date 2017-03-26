@@ -1,0 +1,23 @@
+<Class name="Audio">
+  <class name="Audio">
+    <audio a="100" b="100">
+      <player_a1>audio/player/a1.mp3</player_a1>
+      <player_a2>audio/player/a2.mp3</player_a2>
+      <player_a3>audio/player/a3.mp3</player_a3>
+      <player_a4>audio/player/a4.mp3</player_a4>
+      <player_a5>audio/player/a5.mp3</player_a5>
+      <player_run>audio/player/run1.mp3</player_run>
+      <player_q>audio/player/q1.mp3</player_q>
+      <player_w>audio/player/w1.mp3</player_w>
+      <player_e>audio/player/e1.mp3</player_e>
+      <player_r>audio/player/r1.mp3</player_r>
+      <player_die>audio/player/die.mp3</player_die>
+      <player_cd>audio/ui/close.mp3</player_cd>
+      <ui_button>audio/ui/slectbattle.mp3</ui_button>
+      <back_audio>audio/ui/music.mp3</back_audio>
+      <main_audio>audio/ui/mainbg.mp3</main_audio>
+      <lose>audio/ui/lost.mp3</lose>
+      <win>audio/ui/win.mp3</win>
+    </audio>
+  </class>
+</Class>
